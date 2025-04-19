@@ -1,4 +1,157 @@
-a{
-color:red;
-  text-decoration:none;
+body{
+  font-family:Andalé Mono ,monospace ;
 }
+
+
+header{
+  background-color: red;
+  height: 110px;
+ position: fixed;
+ top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+
+}
+
+main{
+  margin-top:110px;
+  height: 5000px;
+}
+
+footer{
+  height: 90px;
+  width: 100%;
+  background-color: red;
+}
+
+
+.download_button{
+  padding: 20px;
+  border: 2px solid blue;
+  background-color: cyan;
+  position: absolute;
+  top: 600px;
+  left: 1150px;
+  z-index: 1;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.download1{
+  display: block;
+  border: 1px solid black;
+  height: 850px;
+}
+
+.main{
+  display: block;
+  border: 1px solid black;
+  padding-bottom: 450px;
+}
+
+
+.download1 h1{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 70px;
+}
+
+.download1 p{
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.download1 img{
+margin-left: 50px;
+width:500px;
+}
+
+.download1 a{
+  padding: 15px;
+  border: 2px solid blue;
+  background-color: cyan;
+  position: absolute;
+  top: 1500px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  
+}
+
+
+.download2{
+  display: block;
+  border: 1px solid black;
+  height: 850px;
+}
+
+.download2 h2{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 70px;
+}
+
+.download2 p{
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.download2 img{
+margin-left: 50px;
+width:500px;
+}
+
+.download2 a{
+  padding: 15px;
+  border: 2px solid blue;
+  background-color: cyan;
+  position: absolute;
+  top: 2350px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  
+}
+
+
+
+.download3{
+  display: block;
+  border: 1px solid black;
+  height: 850px;
+}
+
+.download3 h3{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 70px;
+}
+
+.download3 p{
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.download3 img{
+margin-left: 50px;
+width:500px;
+}
+
+.download3 a{
+  padding: 15px;
+  border: 2px solid blue;
+  background-color: cyan;
+  position: absolute;
+  top: 3200px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  
+}
+
+
+
