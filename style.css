@@ -154,4 +154,35 @@ width:500px;
 }
 
 
+.files h3{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 70px;
+}
 
+.files{
+  display: block;
+  border: 1px solid black;
+  height: 1600px;
+}
+
+div{
+  margin: 10 0 10 0;
+}
+
+
+.files a{
+  margin-left: 10px;
+  margin-bottom: 1px;
+  padding: 2px;
+  border: 1px solid black;
+  display: block;
+}
+
+.newest{
+  margin-left: 10px;
+  margin-bottom: 1px;
+  padding: 2px;
+  border: 1px solid black;
+  display: block;
+}
