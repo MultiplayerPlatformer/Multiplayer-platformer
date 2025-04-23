@@ -43,6 +43,7 @@ footer{
   display: block;
   border: 1px solid black;
   height: 850px;
+  width:100%;
 }
 
 .main{
@@ -86,6 +87,7 @@ width:500px;
   display: block;
   border: 1px solid black;
   height: 850px;
+    width:100%;
 }
 
 .download2 h2{
@@ -123,6 +125,7 @@ width:500px;
   display: block;
   border: 1px solid black;
   height: 850px;
+    width:100%;
 }
 
 .download3 h3{
@@ -159,12 +162,14 @@ width:500px;
   margin-left: 40px;
   margin-top: 120px;
   font-size: 70px;
+  
 }
 
 .files{
   display: block;
   border: 1px solid black;
   height: 1600px;
+    width:100%;
 }
 
 div{
