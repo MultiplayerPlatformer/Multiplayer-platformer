@@ -12,18 +12,25 @@ header{
   left: 0;
   width: 100%;
   z-index: 2;
+  max-width: 1550px;
+
 
 }
 
 main{
   margin-top:110px;
   height: 5000px;
+  width: 100%;
+  max-width: 1500px;
+  position: relative;
 }
 
 footer{
   height: 90px;
   width: 100%;
   background-color: red;
+  max-width: 1500px;
+  position: relative;
 }
 
 
@@ -44,7 +51,7 @@ footer{
   border: 1px solid black;
   height: 850px;
   width:100%;
-  max-width: 1200px;
+  max-width: 1500px;
   position: relative;
 }
 
@@ -76,7 +83,7 @@ width:500px;
   border: 2px solid blue;
   background-color: cyan;
   position: absolute;
-  top: 1500px;
+  bottom:160px;
   right:50px ;
   z-index: 1;
   font-size: 30px;
@@ -90,7 +97,8 @@ width:500px;
   border: 1px solid black;
   height: 850px;
     width:100%;
-  max-width: 1200px;
+    max-width: 1500px;
+    position: relative;
 
 }
 
@@ -103,6 +111,7 @@ width:500px;
 .download2 p{
   margin-left: 40px;
   font-size: 30px;
+  margin-top: 0px;
 }
 
 .download2 img{
@@ -115,7 +124,7 @@ width:500px;
   border: 2px solid blue;
   background-color: cyan;
   position: absolute;
-  top: 2350px;
+  bottom:160px;
   right:50px ;
   z-index: 1;
   font-size: 30px;
@@ -130,7 +139,8 @@ width:500px;
   border: 1px solid black;
   height: 850px;
     width:100%;
-  max-width: 1200px;
+    max-width: 1500px;
+    position: relative;
   
 }
 
@@ -155,7 +165,7 @@ width:500px;
   border: 2px solid blue;
   background-color: cyan;
   position: absolute;
-  top: 3200px;
+  bottom:160px;
   right:50px ;
   z-index: 1;
   font-size: 30px;
