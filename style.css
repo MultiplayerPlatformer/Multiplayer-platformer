@@ -44,6 +44,8 @@ footer{
   border: 1px solid black;
   height: 850px;
   width:100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .main{
@@ -88,6 +90,8 @@ width:500px;
   border: 1px solid black;
   height: 850px;
     width:100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .download2 h2{
@@ -126,6 +130,8 @@ width:500px;
   border: 1px solid black;
   height: 850px;
     width:100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .download3 h3{
