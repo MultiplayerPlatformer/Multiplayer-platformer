@@ -1,64 +1,68 @@
+
 body{
   font-family:Andalé Mono ,monospace ;
-  background-color:gray;
+  м
 }
 
 
+
+
 header{
-  background-color: red;
+  background: linear-gradient(to right, hsl(215, 100%, 50%),rgb(33, 33, 255),hsl(215, 100%, 50%));
   height: 110px;
  position: fixed;
  top: 0;
   left: 0;
-  width: 100%;
+  width: 1550px;
   z-index: 2;
-  max-width: 1550px;
-
 
 }
 
 main{
   margin-top:110px;
   height: 5000px;
-  width: 100%;
-  max-width: 1500px;
+  width: 1550px;
   position: relative;
 }
 
 footer{
   height: 90px;
-  width: 100%;
+  width: 1550px;
   background-color: red;
-  max-width: 1500px;
   position: relative;
 }
 
 
 .download_button{
   padding: 20px;
-  border: 2px solid blue;
-  background-color: cyan;
+  border: 2px dashed greenyellow;
+  background: linear-gradient(to right, hwb(143 0% 0%),hwb(143 7% 13%),hwb(143 0% 0%));
+  text-decoration: none;
+  color: green;
   position: absolute;
   top: 600px;
   left: 1150px;
   z-index: 1;
   font-size: 40px;
   border-radius: 20px;
+  text-decoration: none;
+ 
 }
 
 .download1{
   display: block;
   border: 1px solid black;
   height: 850px;
-  width:100%;
-  max-width: 1500px;
+  width: 1550px;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.289);
 }
 
 .main{
   display: block;
   border: 1px solid black;
   padding-bottom: 450px;
+  background-color: rgba(0, 0, 0, 0.289);
 }
 
 
@@ -80,8 +84,10 @@ width:500px;
 
 .download1 a{
   padding: 15px;
-  border: 2px solid blue;
-  background-color: cyan;
+  border: 2px dashed greenyellow;
+  background: linear-gradient(to right, hwb(143 0% 0%),hwb(143 7% 13%),hwb(143 0% 0%));
+  text-decoration: none;
+  color: green;
   position: absolute;
   bottom:160px;
   right:50px ;
@@ -96,9 +102,9 @@ width:500px;
   display: block;
   border: 1px solid black;
   height: 850px;
-    width:100%;
-    max-width: 1500px;
+  width: 1550px;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.289);
 
 }
 
@@ -121,8 +127,10 @@ width:500px;
 
 .download2 a{
   padding: 15px;
-  border: 2px solid blue;
-  background-color: cyan;
+  border: 2px dashed greenyellow;
+  background: linear-gradient(to right, hwb(143 0% 0%),hwb(143 7% 13%),hwb(143 0% 0%));
+  text-decoration: none;
+  color: green;
   position: absolute;
   bottom:160px;
   right:50px ;
@@ -138,9 +146,9 @@ width:500px;
   display: block;
   border: 1px solid black;
   height: 850px;
-    width:100%;
-    max-width: 1500px;
+  width: 1550px;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.289);
   
 }
 
@@ -162,8 +170,10 @@ width:500px;
 
 .Download3 a{
   padding: 15px;
-  border: 2px solid blue;
-  background-color: cyan;
+  border: 2px dashed greenyellow;
+  background: linear-gradient(to right, hwb(143 0% 0%),hwb(143 7% 13%),hwb(143 0% 0%));
+  text-decoration: none;
+  color: green;
   position: absolute;
   bottom:160px;
   right:50px ;
@@ -185,7 +195,9 @@ width:500px;
   display: block;
   border: 1px solid black;
   height: 1600px;
-    width:100%;
+  width: 1550px;
+    background-color: rgba(0, 0, 0, 0.289);
+    
 }
 
 div{
@@ -199,6 +211,7 @@ div{
   padding: 2px;
   border: 1px solid black;
   display: block;
+  background-color: rgba(255, 255, 255, 0.523);
 }
 
 .newest{
@@ -208,3 +221,6 @@ div{
   border: 1px solid black;
   display: block;
 }
+
+
+
