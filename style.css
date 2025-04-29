@@ -2,6 +2,7 @@
 body{
   font-family:Andalé Mono ,monospace ;
   margin: 0px;
+  overflow: hidden;
 }
 
 
@@ -35,17 +36,12 @@ header{
 
 main{
   margin-top:110px;
-
+  
   width: 1550px;
   position: relative;
 }
 
-footer{
-  height: 90px;
-  width: 1550px;
-  background-color: red;
-  position: relative;
-}
+
 
 
 .download_button{
@@ -54,7 +50,7 @@ footer{
   text-decoration: none;
   color: rgb(0, 0, 255);
   position: absolute;
-  top: 400px;
+  top: 500px;
   left: 1150px;
   z-index: 1;
   font-size: 40px;
@@ -74,256 +70,28 @@ footer{
 
 
 
-
-
-
-
-.download1{
-  display: block;
-  border: 1px solid black;
-  height: 850px;
-  width: 1550px;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.289);
-}
-
 .main{
   display: block;
   border: 1px solid black;
   padding-bottom: 450px;
   background-color: rgba(0, 0, 0, 0.289);
 margin-top: 120px;
+height: 100%;
 }
 
 
-.download1 h1{
-  margin-left: 40px;
-  margin-top: 120px;
-  font-size: 50px;
-  transition: 0.2s ease-in-out;
-}
 
-.download1 p{
-  margin-left: 40px;
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.download1 img{
-margin-left: 50px;
-width:500px;
-}
-
-.download1 a{
-  padding: 15px;
-  width: 100px;
-  background-color: hwb(143 0% 0%);
-  text-decoration: none;
-  color: rgb(4, 73, 4);
-  position: absolute;
-  bottom:160px;
-  right:50px ;
-  z-index: 1;
-  font-size: 30px;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.2s ease-in-out;
-}
-
-.download1 a:hover{
-  transform: scale(1.06);
-  transition: 0.2s ease-in-out;
- }
- 
-
-.download2{
-  display: block;
-  border: 1px solid black;
-  height: 850px;
-  width: 1550px;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.289);
-
-}
-
-.download2 h2{
-  margin-left: 40px;
-  margin-top: 120px;
-  font-size: 50px;
-  transition: 0.2s ease-in-out;
-}
-
-.download2 p{
-  margin-left: 40px;
-  font-size: 20px;
-  margin-top: 0px;
-  transition: 0.2s ease-in-out;
-}
-
-.download2 img{
-margin-left: 50px;
-width:500px;
-}
-
-.download2 a{
-  padding: 15px;
-  width: 100px;
-  background-color: hwb(143 0% 0%);
-  text-decoration: none;
-  color: rgb(4, 73, 4);
-  position: absolute;
-  bottom:160px;
-  right:50px ;
-  z-index: 1;
-  font-size: 30px;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.2s ease-in-out;
-}
-
-.download2 a:hover{
-  transform: scale(1.06);
-  transition: 0.2s ease-in-out;
- }
- 
-
-.download3{
-  display: block;
-  border: 1px solid black;
-  height: 850px;
-  width: 1550px;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.289);
-  
-}
-
-.download3 h3{
-  margin-left: 40px;
-  margin-top: 120px;
-  font-size: 50px;
-  transition: 0.2s ease-in-out;
-}
-
-.download3 p{
-  margin-left: 40px;
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.download3 img{
-margin-left: 50px;
-width:500px;
-}
-
-.Download3 a{
-  padding: 15px;
-  width: 200px;
-  background-color: hwb(143 0% 0%);
-  text-decoration: none;
-  color: rgb(4, 73, 4);
-  position: absolute;
-  bottom:160px;
-  right:50px ;
-  z-index: 1;
-  font-size: 30px;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.2s ease-in-out;
-}
-
-.download3 a:hover{
-  transform: scale(1.06);
-  transition: 0.2s ease-in-out;
- }
- 
-
-.files h3{
-  margin-left: 40px;
-  margin-top: 120px;
-  font-size: 70px;
-  transition: 0.2s ease-in-out;
-  
-}
-
-.files{
-  display: block;
-  border: 1px solid black;
-  height: 1600px;
-  width: 1550px;
-    background-color: rgba(0, 0, 0, 0.289);
-  }
-
-.files p{
-  font-size: 20px;
-  margin-left: 30px;
-  margin-bottom:0 ;
-  transition: 0.2s ease-in-out;
-}
 
 div{
   margin: 10 0 10 0;
 }
 
 
-.files a{
-  margin-left: 40px;
-  margin-bottom: 0px;
-  padding: 2px;
-  border: 1px solid black;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.523);
-  transition: 0.2s ease-in-out;
-  font-size: 14px;
-  text-decoration: none;
-  width: 500px;
-  
-}
-
-.files a:hover{
-
-    transform: scale(1.02);
-    transition: 0.2s ease-in-out;
-    color:rgb(100, 100, 255);
-    background-color:rgba(54, 54, 54, 0.397);
-    
-    
-   
-}
-
-
-.newest{
-  margin-left: 10px;
-  margin-bottom: 1px;
-  padding: 2px;
-  border: 1px solid black;
-  display: block;
-}
-
-
-
-details{
-  position: static;
-  width: 200px;
-}
 
 p:hover{
   color:white;
   transition: 0.2s ease-in-out;
 }
-
-h1:hover{
-  color:white;
-  transition: 0.2s ease-in-out;
-}
-h2:hover{
-  color:white;
-  transition: 0.2s ease-in-out;
-}
-h3:hover{
-  color:white;
-  transition: 0.2s ease-in-out;
-}
-
 
 img:hover{
   transform:scale(1.1);
