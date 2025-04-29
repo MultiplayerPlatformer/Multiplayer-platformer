@@ -18,9 +18,7 @@ body{
   top: 0;
 }
  
-.MP{
-  width: 600px;
-}
+
 
 
 header{
@@ -36,7 +34,7 @@ header{
 
 main{
   margin-top:110px;
-  
+
   width: 1550px;
   position: relative;
 }
@@ -44,47 +42,166 @@ main{
 
 
 
-.download_button{
-  padding: 20px;
-  background-color: hwb(190 0% 0%);
-  text-decoration: none;
-  color: rgb(0, 0, 255);
-  position: absolute;
-  top: 500px;
-  left: 1150px;
-  z-index: 1;
-  font-size: 40px;
-  border-radius: 20px;
-  text-decoration: none;
+
+
+
+
+
+
+
+
+.download1{
+  display: block;
+  border: 1px solid black;
+  height: 750px;
+  width: 1550px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.289);
+}
+
+
+
+
+.download1 h1{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 50px;
   transition: 0.2s ease-in-out;
 }
 
-
-
-.download_button:hover{
- transform: scale(1.06);
- transition: 0.2s ease-in-out;
- background-color: hwb(190 0% 61%);
- color: rgb(206, 206, 255);
+.download1 p{
+  margin-left: 40px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
 }
 
+.download1 img{
+margin-left: 50px;
+width:500px;
+}
 
+.download1 a{
+  padding: 15px;
+  width: 100px;
+  background-color: hwb(143 0% 0%);
+  text-decoration: none;
+  color: rgb(4, 73, 4);
+  position: absolute;
+  bottom:160px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
 
-.main{
+.download1 a:hover{
+  transform: scale(1.06);
+  transition: 0.2s ease-in-out;
+ }
+ 
+
+.download2{
   display: block;
   border: 1px solid black;
-  padding-bottom: 450px;
+  height: 850px;
+  width: 1550px;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.289);
-margin-top: 120px;
-height: 100%;
+
 }
 
-
-
-
-div{
-  margin: 10 0 10 0;
+.download2 h2{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
 }
+
+.download2 p{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.download2 img{
+margin-left: 50px;
+width:500px;
+}
+
+.download2 a{
+  padding: 15px;
+  width: 100px;
+  background-color: hwb(143 0% 0%);
+  text-decoration: none;
+  color: rgb(4, 73, 4);
+  position: absolute;
+  bottom:160px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.download2 a:hover{
+  transform: scale(1.06);
+  transition: 0.2s ease-in-out;
+ }
+ 
+
+.download3{
+  display: block;
+  border: 1px solid black;
+  height: 850px;
+  width: 1550px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.289);
+  
+}
+
+.download3 h3{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.download3 p{
+  margin-left: 40px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.download3 img{
+margin-left: 50px;
+width:500px;
+}
+
+.Download3 a{
+  padding: 15px;
+  width: 300px;
+  background-color: hwb(143 0% 0%);
+  text-decoration: none;
+  color: rgb(4, 73, 4);
+  position: absolute;
+  bottom:160px;
+  right:50px ;
+  z-index: 1;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.download3 a:hover{
+  transform: scale(1.06);
+  transition: 0.2s ease-in-out;
+ }
+ 
 
 
 
@@ -92,6 +209,20 @@ p:hover{
   color:white;
   transition: 0.2s ease-in-out;
 }
+
+h1:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+h2:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+h3:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+
 
 img:hover{
   transform:scale(1.1);
