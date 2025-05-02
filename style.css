@@ -55,13 +55,14 @@ footer{
   text-decoration: none;
   color: rgb(0, 0, 255);
   position: absolute;
-  top: 400px;
+  top: 600px;
   left: 1150px;
   z-index: 1;
   font-size: 40px;
   border-radius: 20px;
   text-decoration: none;
   transition: 0.2s ease-in-out;
+  position: fixed;
 }
 
 
